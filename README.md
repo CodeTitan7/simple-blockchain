@@ -14,7 +14,7 @@ A basic Python implementation of a blockchain that includes block creation, hash
 ## Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/simple-blockchain.git  
+   git clone https://github.com/CodeTitan7/simple-blockchain.git  
    cd simple-blockchain  
    ```  
 2. Run the script:  
