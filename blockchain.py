@@ -77,9 +77,9 @@ class Blockchain:
 blockchain = Blockchain()
 
 # Add transactions and mine blocks
-blockchain.add_transaction({"from": "Alice", "to": "Bob", "amount": 50})
+blockchain.add_transaction({"from": "Arjun", "to": "Marley", "amount": 60})
 blockchain.add_block()
-blockchain.add_transaction({"from": "Charlie", "to": "Dave", "amount": 25})
+blockchain.add_transaction({"from": "Chaplin", "to": "Dev", "amount": 25})
 blockchain.add_block()
 
 # Display valid blockchain
@@ -89,7 +89,7 @@ print("Is the blockchain valid :", blockchain.is_valid_chain())
 
 # Modify a block's transaction data
 tamper_index = 1
-blockchain.tamper_with_block(tamper_index, [{"from": "Eve", "to": "Mallory", "amount": 1000}])
+blockchain.tamper_with_block(tamper_index, [{"from": "Geronimo", "to": "Dwayne", "amount": 1500}])
 
 # Display tampered blockchain
 print("\nBlockchain after tampering:")
